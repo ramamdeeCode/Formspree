@@ -9,12 +9,33 @@
             rel="stylesheet"
             type="text/css"
         /> 
+        <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
-    <main>
-        <form>
-            
-        </form>
-    </main>
+    <body>
+        <main>
+            <form>
+                <label for="name">Name:</label><br>
+                <input 
+                    id="name"
+                    type="text"
+                    name="name"
+                    /><br>
+                <label for="email">Email:</label><br>
+                <input 
+                    id="email"
+                    type="text"
+                    name="name"
+                    /><br>
+                <label for="form-message">Your message:</label><br>
+                <textarea 
+                    id="form-message" 
+                    name="message"
+                    autofocus="on"
+                    maxlength="200"
+                    ></textarea>
+                <input class="submit" type="submit" value="Submit">
+            </form>        
+        </main> 
+    </body>
     
-
 </html>
